@@ -1,9 +1,9 @@
 body{
-	font-family:Arial,Helvetica,sans-serif;
+	font-family:Cambria,Arial,Helvetica,sans-serif,Cambria Math;
 	font-size:15px;
 	line-height:1.5;
 	padding:0;
-	margin:0;
+	margin:0; 
 	background-color:#f4f4f4;
 }
 
@@ -45,6 +45,7 @@ header li{
 }
 header #branding{
 	float:left;
+	font-family:Cambria,Arial,Helvetica,sans-serif,Cambria Math;
 }
 header #branding h1{
 	margin:0;
@@ -54,7 +55,7 @@ header nav{
 	margin-top:10px;
 }
 header .highlight, header .current a{
-	color:#e7095c; 
+	color:#DC137B; 
 	font-weight:bold;
 }
 header a:hover{
@@ -65,7 +66,8 @@ header a:hover{
 /* shocase i.e section  */
 #showcase{
 	min-height:400px;
-	background:url('../mypics/profile.PNG' )no-repeat 0 -200px;
+	min-width:auto;
+	background:url('../mypics/profile.png') -200px repeat;
 	text-align:center;
 	color:#000000;
 }
@@ -80,7 +82,7 @@ header a:hover{
 #news{
 	padding:15px;
 	color:#ffffff;
-	background:#21828124;
+	background:#A6D9F4;
 }
 #news h1{
 	float:left;
@@ -107,10 +109,10 @@ header a:hover{
 	
 }
 #boxes .box img{
-	width:90px;
+	width:80px;
 }
 footer{
-	background:#21828124;
+	background:#A6D9F4;
 	color:#000000;
 	padding-top:30px;
 	min-height:70px;
